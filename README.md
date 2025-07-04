@@ -48,9 +48,11 @@ python manage.py runserver
 
 ---
 
-## 📬 API Endpoints & Examples
+##  API Endpoints & Examples
 
-### 🧑 Register
+Base URl : https://blog-api-backend-zhji.onrender.com
+
+###  Register
 
 `POST /api/register/`
 ```json
@@ -75,7 +77,7 @@ python manage.py runserver
 
 ---
 
-### ✍️ Create Post (Auth Required)
+###  Create Post (Auth Required)
 
 `POST /api/create-post/`
 ```json
@@ -110,7 +112,7 @@ python manage.py runserver
 
 ---
 
-## 🔐 Authentication
+##  Authentication
 
 - Uses Django's built-in `authenticate` + session login.
 - Auth-required endpoints: create-post, comment.
